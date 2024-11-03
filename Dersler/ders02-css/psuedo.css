@@ -1,0 +1,62 @@
+/* Psuedo class*/
+
+.link{
+  color: rgb(249, 126, 3);
+}
+.link:active{
+  color: aqua;
+}
+.link:visited{
+  color: blue;
+}
+.link:hover{
+  color: purple;
+}
+.list-item{
+  color: pink;
+  list-style-type: none;
+  font-size: 18px;
+}
+/* .list-item:first-child{
+  color: rgb(3, 249, 126);
+} */
+/* .list-item:last-child{
+  color: rgb(3, 126, 249);
+} */
+/* .list-item:nth-child(odd){
+  color: rgb(3, 101, 126);
+} */
+/* .list-item:nth-child(even){
+  color: rgb(3, 101, 126);
+} */
+/* .list-item:nth-child(2){
+  color: rgb(3, 101, 126);
+} */
+/* .list-item:nth-child(-n+6){
+  color: rgb(3, 101, 126);
+} */
+
+/*psuedo element*/
+
+/* .list-item::first-letter{
+  color: rgb(3, 101, 126);
+  font-size: 44px;
+} */
+/* p::first-letter{
+  color: rgb(3, 101, 126);
+  font-size: 44px;
+} */
+/* .text::first-line{
+  color: rgb(3, 101, 126);
+  font-size: 44px;
+}  */
+  /* .text::after{
+    content: "ben sone eklendim";
+    color: red;
+    font-size: 35px;
+  } */
+  .text::before{
+    content: "ben öne eklendim";
+    color: red;
+    font-size: 35px;
+  }
